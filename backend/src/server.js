@@ -1,4 +1,10 @@
+
+
 require("dotenv").config();
+console.log("SERVER INSTANCE STARTED");
+
+
+console.log("POSTGRES_URL =", process.env.POSTGRES_URL);
 
 const app = require("./app");
 

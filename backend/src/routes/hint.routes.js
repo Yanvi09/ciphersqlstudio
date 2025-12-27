@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-router.post("/", (req, res) => {
-  res.json({ hint: "LLM hint endpoint placeholder" });
-});
+const { getHint } = require("../controllers/hint.controller");
+
+router.post("/", getHint);
 
 module.exports = router;
