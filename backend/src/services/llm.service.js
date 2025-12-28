@@ -18,7 +18,7 @@ function generateHint() {
 }
 
 /*
-Production outline (not executed here):
+
 
 async function generateHint({ question, schema, userQuery }) {
   const prompt = buildConstrainedPrompt(question, schema, userQuery);
