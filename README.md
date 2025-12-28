@@ -51,3 +51,8 @@ See `/docs/data-flow-diagram.png` for the full request lifecycle.
 - Query history and saved attempts
 - Role-based difficulty progression
 - Real LLM integration with safety constraints
+
+## Trade-offs
+- A real LLM was not integrated to avoid dependency on API keys during evaluation.
+- SQL validation is keyword-based for clarity rather than full parsing.
+- Authentication was skipped to focus on core SQL learning flow.
